@@ -14,4 +14,11 @@ node server.js <url-de-conexão-mongodb>/bots <porta-nodejs>
 * /messages - API de menssagens.
 * /doc - Swagger das APIs.
 
+## Arquitetura
+A aplicação foi desenvolvida com utilizando NodeJS, com Express e Mongoose, e banco de dados MongoDB.
 
+Apesar do NodeJS dar a possibilidade de balanceamento de carga, é preferível criar uma arquitetura de containers, em um ambiente Kubernets, possibilitando assim, aumentar a arquitetura horizontalmente, além de criar zonas de DR.
+
+As figuras são uma demonstração desta Arquitetura:
+
+![Overview](/images/logo.png)
