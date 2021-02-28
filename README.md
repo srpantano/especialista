@@ -21,4 +21,6 @@ Apesar do NodeJS dar a possibilidade de balanceamento de carga, é preferível c
 
 As figuras são uma demonstração desta Arquitetura:
 
-![Overview](/images/logo.png)
+![Overview](/images/Overview.png)
+
+![Resiliência](/images/Overview2.png)
